@@ -17,6 +17,6 @@ Lots of mobile Calculators lack in design, that why I decided to design my appli
 - I want to add more features and more functions to JSCalculator to become more useful
 - Landscape mode
 
-#Thank you for checking out JSCalculator.
+#Thank you for checking out JSCalculator
 
 Built and designed by Jaxon Stevens 
