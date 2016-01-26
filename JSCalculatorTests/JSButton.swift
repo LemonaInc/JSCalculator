@@ -1,6 +1,6 @@
 //
 //  JSButton.swift
-//  MaterialKit
+//  JSMaterialKit
 //
 //  Created by Jaxon Stevens on 04/20/15
 //  Copyright (c) 2014 Jaxon Stevens. All rights reserved.

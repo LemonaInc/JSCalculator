@@ -1,6 +1,6 @@
 //
 //  JSLayer.swift
-//  MaterialKit Modified
+//  JSMaterialKit 
 //
 //  Created by Jaxon Stevens on 04/14/15.
 //  Copyright (c) 2014 Jaxon Stevens. All rights reserved.
