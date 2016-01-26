@@ -13,9 +13,6 @@
 		EA1240911C57496A00EEEA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA12408F1C57496A00EEEA98 /* LaunchScreen.storyboard */; };
 		EA12409C1C57496A00EEEA98 /* JSCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12409B1C57496A00EEEA98 /* JSCalculatorTests.swift */; };
 		EA1240A71C57496A00EEEA98 /* JSCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240A61C57496A00EEEA98 /* JSCalculatorUITests.swift */; };
-		EA1240BE1C575BC000EEEA98 /* watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1240BC1C575BC000EEEA98 /* watch@2x.png */; };
-		EA1240C91C575E2500EEEA98 /* past.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1240C61C575E2500EEEA98 /* past.png */; };
-		EA1240CC1C575E6500EEEA98 /* past@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1240CB1C575E6500EEEA98 /* past@2x.png */; };
 		EA1240DD1C5760E100EEEA98 /* JSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240DA1C5760E100EEEA98 /* JSColor.swift */; };
 		EA1240DE1C5760E100EEEA98 /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240DB1C5760E100EEEA98 /* JSButton.swift */; };
 		EA1240DF1C5760E100EEEA98 /* JSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240DC1C5760E100EEEA98 /* JSLayer.swift */; };
@@ -59,9 +56,6 @@
 		EA1240A21C57496A00EEEA98 /* JSCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1240A61C57496A00EEEA98 /* JSCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCalculatorUITests.swift; sourceTree = "<group>"; };
 		EA1240A81C57496A00EEEA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA1240BC1C575BC000EEEA98 /* watch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watch@2x.png"; sourceTree = "<group>"; };
-		EA1240C61C575E2500EEEA98 /* past.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = past.png; sourceTree = "<group>"; };
-		EA1240CB1C575E6500EEEA98 /* past@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "past@2x.png"; sourceTree = "<group>"; };
 		EA1240DA1C5760E100EEEA98 /* JSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSColor.swift; sourceTree = "<group>"; };
 		EA1240DB1C5760E100EEEA98 /* JSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
 		EA1240DC1C5760E100EEEA98 /* JSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSLayer.swift; sourceTree = "<group>"; };
@@ -129,9 +123,6 @@
 				EA12408D1C57496A00EEEA98 /* Assets.xcassets */,
 				EA12408F1C57496A00EEEA98 /* LaunchScreen.storyboard */,
 				EAEF45581C57E22F00D37368 /* CalculatorIcon.png */,
-				EA1240CB1C575E6500EEEA98 /* past@2x.png */,
-				EA1240C61C575E2500EEEA98 /* past.png */,
-				EA1240BC1C575BC000EEEA98 /* watch@2x.png */,
 				EA1240921C57496A00EEEA98 /* Info.plist */,
 			);
 			path = JSCalculator;
@@ -295,10 +286,7 @@
 			files = (
 				EAEF45591C57E22F00D37368 /* CalculatorIcon.png in Resources */,
 				EA1240F11C57641B00EEEA98 /* CaviarDreams.ttf in Resources */,
-				EA1240CC1C575E6500EEEA98 /* past@2x.png in Resources */,
-				EA1240C91C575E2500EEEA98 /* past.png in Resources */,
 				EA1240911C57496A00EEEA98 /* LaunchScreen.storyboard in Resources */,
-				EA1240BE1C575BC000EEEA98 /* watch@2x.png in Resources */,
 				EA2188ED1C5784A50086CAF2 /* Clicked.mp3 in Resources */,
 				EA12408E1C57496A00EEEA98 /* Assets.xcassets in Resources */,
 				EA2188EF1C5785630086CAF2 /* Button.mp3 in Resources */,
