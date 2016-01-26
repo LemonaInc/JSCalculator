@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1240851C57496A00EEEA98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240841C57496A00EEEA98 /* AppDelegate.swift */; };
+		EA1240871C57496A00EEEA98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240861C57496A00EEEA98 /* ViewController.swift */; };
+		EA12408E1C57496A00EEEA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA12408D1C57496A00EEEA98 /* Assets.xcassets */; };
+		EA1240911C57496A00EEEA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA12408F1C57496A00EEEA98 /* LaunchScreen.storyboard */; };
+		EA12409C1C57496A00EEEA98 /* JSCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12409B1C57496A00EEEA98 /* JSCalculatorTests.swift */; };
+		EA1240A71C57496A00EEEA98 /* JSCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240A61C57496A00EEEA98 /* JSCalculatorUITests.swift */; };
+		EA1240BE1C575BC000EEEA98 /* watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1240BC1C575BC000EEEA98 /* watch@2x.png */; };
+		EA1240C91C575E2500EEEA98 /* past.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1240C61C575E2500EEEA98 /* past.png */; };
+		EA1240CC1C575E6500EEEA98 /* past@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1240CB1C575E6500EEEA98 /* past@2x.png */; };
+		EA1240DD1C5760E100EEEA98 /* JSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240DA1C5760E100EEEA98 /* JSColor.swift */; };
+		EA1240DE1C5760E100EEEA98 /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240DB1C5760E100EEEA98 /* JSButton.swift */; };
+		EA1240DF1C5760E100EEEA98 /* JSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1240DC1C5760E100EEEA98 /* JSLayer.swift */; };
+		EA1240E91C5762D600EEEA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1240E81C5762D600EEEA98 /* Main.storyboard */; };
+		EA1240EE1C57641B00EEEA98 /* Caviar_Dreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA1240EA1C57641B00EEEA98 /* Caviar_Dreams_Bold.ttf */; };
+		EA1240EF1C57641B00EEEA98 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA1240EB1C57641B00EEEA98 /* CaviarDreams_BoldItalic.ttf */; };
+		EA1240F01C57641B00EEEA98 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA1240EC1C57641B00EEEA98 /* CaviarDreams_Italic.ttf */; };
+		EA1240F11C57641B00EEEA98 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA1240ED1C57641B00EEEA98 /* CaviarDreams.ttf */; };
+		EA2188E51C57811C0086CAF2 /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2188E41C57811C0086CAF2 /* Calc.storyboard */; };
+		EA2188ED1C5784A50086CAF2 /* Clicked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA2188EC1C5784A50086CAF2 /* Clicked.mp3 */; };
+		EA2188EF1C5785630086CAF2 /* Button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA2188EE1C5785630086CAF2 /* Button.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1240981C57496A00EEEA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1240791C57496A00EEEA98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1240801C57496A00EEEA98;
+			remoteInfo = JSCalculator;
+		};
+		EA1240A31C57496A00EEEA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1240791C57496A00EEEA98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1240801C57496A00EEEA98;
+			remoteInfo = JSCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1240811C57496A00EEEA98 /* JSCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1240841C57496A00EEEA98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA1240861C57496A00EEEA98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA12408D1C57496A00EEEA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1240901C57496A00EEEA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1240921C57496A00EEEA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1240971C57496A00EEEA98 /* JSCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA12409B1C57496A00EEEA98 /* JSCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCalculatorTests.swift; sourceTree = "<group>"; };
+		EA12409D1C57496A00EEEA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1240A21C57496A00EEEA98 /* JSCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1240A61C57496A00EEEA98 /* JSCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCalculatorUITests.swift; sourceTree = "<group>"; };
+		EA1240A81C57496A00EEEA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1240BC1C575BC000EEEA98 /* watch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watch@2x.png"; sourceTree = "<group>"; };
+		EA1240C61C575E2500EEEA98 /* past.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = past.png; sourceTree = "<group>"; };
+		EA1240CB1C575E6500EEEA98 /* past@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "past@2x.png"; sourceTree = "<group>"; };
+		EA1240DA1C5760E100EEEA98 /* JSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSColor.swift; sourceTree = "<group>"; };
+		EA1240DB1C5760E100EEEA98 /* JSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
+		EA1240DC1C5760E100EEEA98 /* JSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSLayer.swift; sourceTree = "<group>"; };
+		EA1240E81C5762D600EEEA98 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA1240EA1C57641B00EEEA98 /* Caviar_Dreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caviar_Dreams_Bold.ttf; sourceTree = "<group>"; };
+		EA1240EB1C57641B00EEEA98 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
+		EA1240EC1C57641B00EEEA98 /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Italic.ttf; sourceTree = "<group>"; };
+		EA1240ED1C57641B00EEEA98 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		EA2188E31C57811C0086CAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Calc.storyboard; sourceTree = "<group>"; };
+		EA2188EC1C5784A50086CAF2 /* Clicked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Clicked.mp3; sourceTree = "<group>"; };
+		EA2188EE1C5785630086CAF2 /* Button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Button.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA12407E1C57496A00EEEA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1240941C57496A00EEEA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA12409F1C57496A00EEEA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1240781C57496A00EEEA98 = {
+			isa = PBXGroup;
+			children = (
+				EA1240831C57496A00EEEA98 /* JSCalculator */,
+				EA12409A1C57496A00EEEA98 /* JSCalculatorTests */,
+				EA1240A51C57496A00EEEA98 /* JSCalculatorUITests */,
+				EA1240821C57496A00EEEA98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1240821C57496A00EEEA98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1240811C57496A00EEEA98 /* JSCalculator.app */,
+				EA1240971C57496A00EEEA98 /* JSCalculatorTests.xctest */,
+				EA1240A21C57496A00EEEA98 /* JSCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1240831C57496A00EEEA98 /* JSCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EA1240841C57496A00EEEA98 /* AppDelegate.swift */,
+				EA1240861C57496A00EEEA98 /* ViewController.swift */,
+				EA1240D31C57604C00EEEA98 /* JS Material Annimation */,
+				EA12408D1C57496A00EEEA98 /* Assets.xcassets */,
+				EA12408F1C57496A00EEEA98 /* LaunchScreen.storyboard */,
+				EA1240CB1C575E6500EEEA98 /* past@2x.png */,
+				EA1240C61C575E2500EEEA98 /* past.png */,
+				EA1240BC1C575BC000EEEA98 /* watch@2x.png */,
+				EA1240921C57496A00EEEA98 /* Info.plist */,
+			);
+			path = JSCalculator;
+			sourceTree = "<group>";
+		};
+		EA12409A1C57496A00EEEA98 /* JSCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA12409B1C57496A00EEEA98 /* JSCalculatorTests.swift */,
+				EA12409D1C57496A00EEEA98 /* Info.plist */,
+			);
+			path = JSCalculatorTests;
+			sourceTree = "<group>";
+		};
+		EA1240A51C57496A00EEEA98 /* JSCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1240A61C57496A00EEEA98 /* JSCalculatorUITests.swift */,
+				EA1240A81C57496A00EEEA98 /* Info.plist */,
+			);
+			path = JSCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		EA1240D31C57604C00EEEA98 /* JS Material Annimation */ = {
+			isa = PBXGroup;
+			children = (
+				EA1240DA1C5760E100EEEA98 /* JSColor.swift */,
+				EA1240DB1C5760E100EEEA98 /* JSButton.swift */,
+				EA1240DC1C5760E100EEEA98 /* JSLayer.swift */,
+				EA1240E81C5762D600EEEA98 /* Main.storyboard */,
+				EA2188E41C57811C0086CAF2 /* Calc.storyboard */,
+				EA2188EB1C5781730086CAF2 /* Fonts */,
+				EA2188EA1C57816C0086CAF2 /* Sounds */,
+				EA2188EC1C5784A50086CAF2 /* Clicked.mp3 */,
+				EA2188EE1C5785630086CAF2 /* Button.mp3 */,
+			);
+			name = "JS Material Annimation";
+			path = JSCalculatorTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		EA2188EA1C57816C0086CAF2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		EA2188EB1C5781730086CAF2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA1240ED1C57641B00EEEA98 /* CaviarDreams.ttf */,
+				EA1240EC1C57641B00EEEA98 /* CaviarDreams_Italic.ttf */,
+				EA1240EA1C57641B00EEEA98 /* Caviar_Dreams_Bold.ttf */,
+				EA1240EB1C57641B00EEEA98 /* CaviarDreams_BoldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1240801C57496A00EEEA98 /* JSCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1240AB1C57496A00EEEA98 /* Build configuration list for PBXNativeTarget "JSCalculator" */;
+			buildPhases = (
+				EA12407D1C57496A00EEEA98 /* Sources */,
+				EA12407E1C57496A00EEEA98 /* Frameworks */,
+				EA12407F1C57496A00EEEA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCalculator;
+			productName = JSCalculator;
+			productReference = EA1240811C57496A00EEEA98 /* JSCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1240961C57496A00EEEA98 /* JSCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1240AE1C57496A00EEEA98 /* Build configuration list for PBXNativeTarget "JSCalculatorTests" */;
+			buildPhases = (
+				EA1240931C57496A00EEEA98 /* Sources */,
+				EA1240941C57496A00EEEA98 /* Frameworks */,
+				EA1240951C57496A00EEEA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1240991C57496A00EEEA98 /* PBXTargetDependency */,
+			);
+			name = JSCalculatorTests;
+			productName = JSCalculatorTests;
+			productReference = EA1240971C57496A00EEEA98 /* JSCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA1240A11C57496A00EEEA98 /* JSCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1240B11C57496A00EEEA98 /* Build configuration list for PBXNativeTarget "JSCalculatorUITests" */;
+			buildPhases = (
+				EA12409E1C57496A00EEEA98 /* Sources */,
+				EA12409F1C57496A00EEEA98 /* Frameworks */,
+				EA1240A01C57496A00EEEA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1240A41C57496A00EEEA98 /* PBXTargetDependency */,
+			);
+			name = JSCalculatorUITests;
+			productName = JSCalculatorUITests;
+			productReference = EA1240A21C57496A00EEEA98 /* JSCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1240791C57496A00EEEA98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jaxon Stevens";
+				TargetAttributes = {
+					EA1240801C57496A00EEEA98 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EA1240961C57496A00EEEA98 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA1240801C57496A00EEEA98;
+					};
+					EA1240A11C57496A00EEEA98 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA1240801C57496A00EEEA98;
+					};
+				};
+			};
+			buildConfigurationList = EA12407C1C57496A00EEEA98 /* Build configuration list for PBXProject "JSCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1240781C57496A00EEEA98;
+			productRefGroup = EA1240821C57496A00EEEA98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1240801C57496A00EEEA98 /* JSCalculator */,
+				EA1240961C57496A00EEEA98 /* JSCalculatorTests */,
+				EA1240A11C57496A00EEEA98 /* JSCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA12407F1C57496A00EEEA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1240F11C57641B00EEEA98 /* CaviarDreams.ttf in Resources */,
+				EA1240CC1C575E6500EEEA98 /* past@2x.png in Resources */,
+				EA1240C91C575E2500EEEA98 /* past.png in Resources */,
+				EA1240911C57496A00EEEA98 /* LaunchScreen.storyboard in Resources */,
+				EA1240BE1C575BC000EEEA98 /* watch@2x.png in Resources */,
+				EA2188ED1C5784A50086CAF2 /* Clicked.mp3 in Resources */,
+				EA12408E1C57496A00EEEA98 /* Assets.xcassets in Resources */,
+				EA2188EF1C5785630086CAF2 /* Button.mp3 in Resources */,
+				EA1240EF1C57641B00EEEA98 /* CaviarDreams_BoldItalic.ttf in Resources */,
+				EA1240E91C5762D600EEEA98 /* Main.storyboard in Resources */,
+				EA1240EE1C57641B00EEEA98 /* Caviar_Dreams_Bold.ttf in Resources */,
+				EA2188E51C57811C0086CAF2 /* Calc.storyboard in Resources */,
+				EA1240F01C57641B00EEEA98 /* CaviarDreams_Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1240951C57496A00EEEA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1240A01C57496A00EEEA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA12407D1C57496A00EEEA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1240DE1C5760E100EEEA98 /* JSButton.swift in Sources */,
+				EA1240DF1C5760E100EEEA98 /* JSLayer.swift in Sources */,
+				EA1240DD1C5760E100EEEA98 /* JSColor.swift in Sources */,
+				EA1240851C57496A00EEEA98 /* AppDelegate.swift in Sources */,
+				EA1240871C57496A00EEEA98 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1240931C57496A00EEEA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA12409C1C57496A00EEEA98 /* JSCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA12409E1C57496A00EEEA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1240A71C57496A00EEEA98 /* JSCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1240991C57496A00EEEA98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1240801C57496A00EEEA98 /* JSCalculator */;
+			targetProxy = EA1240981C57496A00EEEA98 /* PBXContainerItemProxy */;
+		};
+		EA1240A41C57496A00EEEA98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1240801C57496A00EEEA98 /* JSCalculator */;
+			targetProxy = EA1240A31C57496A00EEEA98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA12408F1C57496A00EEEA98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1240901C57496A00EEEA98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2188E41C57811C0086CAF2 /* Calc.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2188E31C57811C0086CAF2 /* Base */,
+			);
+			name = Calc.storyboard;
+			path = "../../../Downloads/Retro-Calculator-master/Retro Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1240A91C57496A00EEEA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA1240AA1C57496A00EEEA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1240AC1C57496A00EEEA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lemona.JSCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA1240AD1C57496A00EEEA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lemona.JSCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA1240AF1C57496A00EEEA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lemona.JSCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSCalculator.app/JSCalculator";
+			};
+			name = Debug;
+		};
+		EA1240B01C57496A00EEEA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lemona.JSCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSCalculator.app/JSCalculator";
+			};
+			name = Release;
+		};
+		EA1240B21C57496A00EEEA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lemona.JSCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA1240B31C57496A00EEEA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lemona.JSCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA12407C1C57496A00EEEA98 /* Build configuration list for PBXProject "JSCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1240A91C57496A00EEEA98 /* Debug */,
+				EA1240AA1C57496A00EEEA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1240AB1C57496A00EEEA98 /* Build configuration list for PBXNativeTarget "JSCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1240AC1C57496A00EEEA98 /* Debug */,
+				EA1240AD1C57496A00EEEA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1240AE1C57496A00EEEA98 /* Build configuration list for PBXNativeTarget "JSCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1240AF1C57496A00EEEA98 /* Debug */,
+				EA1240B01C57496A00EEEA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1240B11C57496A00EEEA98 /* Build configuration list for PBXNativeTarget "JSCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1240B21C57496A00EEEA98 /* Debug */,
+				EA1240B31C57496A00EEEA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1240791C57496A00EEEA98 /* Project object */;
+}
