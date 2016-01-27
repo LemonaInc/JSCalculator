@@ -8,7 +8,7 @@ Lots of mobile Calculators lack in design, that why I decided to design my appli
 
 - If you click anywhere outside of the initial screen area, it will clear the calculator and generate a nice ripple effect 
 - Basic operations of what a normal handheld calculator would have.
-- light and dark mode enabled, simply click on the switch to change modes. (this function of the app will be improved)
+- light and dark mode enabled, simply click on the switch to change modes (this function of the app will be improved)
 - Simply designed
 - Easy to use
 
