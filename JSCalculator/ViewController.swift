@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         let clearUrl = NSURL(fileURLWithPath: clearPath!)
         
         // Initial Number set to 0
-        runningNumber = "0"
+        runningNumber = ""
         
         do {
             try btnSound = AVAudioPlayer(contentsOfURL: soundUrl)
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
     // Clear Pressed
     @IBAction func clearPressed(sender: AnyObject) {
         clearSound.play()
-        runningNumber = "0"
+        runningNumber = ""
         leftValStr = ""
         rightValStr = ""
         outputLbl.text = "0"
