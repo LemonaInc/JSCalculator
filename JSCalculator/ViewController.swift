@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         case Subtract = "-"
         case Add = "+"
         case Empty = "Empty"
+        case point = "."
     }
     
     // The sounds setup is here
@@ -110,6 +111,11 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
+    @IBAction func onPointPressed(Sender: AnyObject) {
+        processOperation(Operation.point)
+        
+    }
+    
     // Process Operation
     func processOperation(op: Operation) {
         playSound()
@@ -132,6 +138,10 @@ class ViewController: UIViewController {
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValStr)! + Double(rightValStr)!)"
                 }
+                
+
+            
+                
                 
                 leftValStr = result
                 outputLbl.text = result
