@@ -23,6 +23,7 @@
 		EA2188E51C57811C0086CAF2 /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2188E41C57811C0086CAF2 /* Calc.storyboard */; };
 		EA2188ED1C5784A50086CAF2 /* Clicked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA2188EC1C5784A50086CAF2 /* Clicked.mp3 */; };
 		EA2188EF1C5785630086CAF2 /* Button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA2188EE1C5785630086CAF2 /* Button.mp3 */; };
+		EA724DDF1C5885960018F836 /* TheNoggin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA724DDE1C5885960018F836 /* TheNoggin.swift */; };
 		EAEF45591C57E22F00D37368 /* CalculatorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF45581C57E22F00D37368 /* CalculatorIcon.png */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		EA2188E31C57811C0086CAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Calc.storyboard; sourceTree = "<group>"; };
 		EA2188EC1C5784A50086CAF2 /* Clicked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Clicked.mp3; sourceTree = "<group>"; };
 		EA2188EE1C5785630086CAF2 /* Button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Button.mp3; sourceTree = "<group>"; };
+		EA724DDE1C5885960018F836 /* TheNoggin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheNoggin.swift; sourceTree = "<group>"; };
 		EAEF45581C57E22F00D37368 /* CalculatorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalculatorIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 			children = (
 				EA1240841C57496A00EEEA98 /* AppDelegate.swift */,
 				EA1240861C57496A00EEEA98 /* ViewController.swift */,
+				EA724DDE1C5885960018F836 /* TheNoggin.swift */,
 				EA1240D31C57604C00EEEA98 /* JS Material Annimation */,
 				EA12408D1C57496A00EEEA98 /* Assets.xcassets */,
 				EA12408F1C57496A00EEEA98 /* LaunchScreen.storyboard */,
@@ -248,6 +251,7 @@
 				TargetAttributes = {
 					EA1240801C57496A00EEEA98 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 45J9WDN6PB;
 					};
 					EA1240961C57496A00EEEA98 = {
 						CreatedOnToolsVersion = 7.1;
@@ -318,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA724DDF1C5885960018F836 /* TheNoggin.swift in Sources */,
 				EA1240DE1C5760E100EEEA98 /* JSButton.swift in Sources */,
 				EA1240DF1C5760E100EEEA98 /* JSLayer.swift in Sources */,
 				EA1240DD1C5760E100EEEA98 /* JSColor.swift in Sources */,
@@ -463,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JSCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -475,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JSCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -16,7 +16,18 @@
 import UIKit
 import AVFoundation
 
+
+
 class ViewController: UIViewController {
+    
+    //Display
+    @IBOutlet weak var display: UILabel!
+    @IBOutlet weak var decimalButton: UIButton!
+    
+
+    
+
+    //Start of old code
     
     enum Operation: String {
         case Divide = "/"
@@ -24,7 +35,8 @@ class ViewController: UIViewController {
         case Subtract = "-"
         case Add = "+"
         case Empty = "Empty"
-        case point = "."
+        case Decimal = "."
+        
     }
     
     // The sounds setup is here
@@ -79,6 +91,8 @@ class ViewController: UIViewController {
         rightValStr = ""
         outputLbl.text = "0"
         currentOperation = Operation.Empty
+
+        
     }
     
     // Number Pressed
@@ -111,8 +125,8 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
-    @IBAction func onPointPressed(Sender: AnyObject) {
-        processOperation(Operation.point)
+    @IBAction func onDecimalPressed(Sender: AnyObject) {
+        processOperation(Operation.Decimal)
         
     }
     
@@ -138,6 +152,7 @@ class ViewController: UIViewController {
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValStr)! + Double(rightValStr)!)"
                 }
+                
                 
 
             
@@ -165,6 +180,6 @@ class ViewController: UIViewController {
         
         btnSound.play()
     }
-    
+
 }
 
