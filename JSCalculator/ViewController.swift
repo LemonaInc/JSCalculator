@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     var clearSound: AVAudioPlayer!
     
     // Numbers
-    var runningNumber = ""
+    var runningNumber = "0"
     var leftValStr = ""
     var rightValStr = ""
     var currentOperation: Operation = Operation.Empty
